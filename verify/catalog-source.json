@@ -1,0 +1,2582 @@
+{
+ "PRODUCTS": [
+  {
+   "slug": "oud-and-woods",
+   "name": "Oud & Woods",
+   "family": "Woody · Oriental",
+   "type": "edp",
+   "short": "Deep woods. Warm spice. A refined trail.",
+   "mrp": 1199,
+   "price": 899,
+   "size": "50 ml",
+   "ml": 50,
+   "badge": "Signature",
+   "pal": {
+    "top": "#6B4527",
+    "bot": "#2B1A11",
+    "cap": "#241D19"
+   },
+   "fams": [
+    "woody",
+    "oriental",
+    "oud"
+   ],
+   "occ": [
+    "evening",
+    "wedding",
+    "festive",
+    "date"
+   ],
+   "seasons": [
+    "winter",
+    "all-season"
+   ],
+   "intensity": "strong",
+   "longev": [
+    6,
+    8
+   ],
+   "sillage": "Noticeable in a room",
+   "stock": 180,
+   "rank": 1,
+   "notes": {
+    "top": [
+     "Bergamot",
+     "Cardamom",
+     "Pink Pepper"
+    ],
+    "heart": [
+     "Woody Accord",
+     "Cypriol",
+     "Soft Florals"
+    ],
+    "base": [
+     "Oud Accord",
+     "Sandalwood",
+     "Amber",
+     "Musk"
+    ]
+   }
+  },
+  {
+   "slug": "royal-musk",
+   "name": "Royal Musk",
+   "family": "Musky · Woody",
+   "type": "edp",
+   "short": "Clean. Soft. Elegant.",
+   "mrp": 1099,
+   "price": 799,
+   "size": "50 ml",
+   "ml": 50,
+   "badge": "",
+   "pal": {
+    "top": "#8A7B69",
+    "bot": "#3B332B",
+    "cap": "#241D19"
+   },
+   "fams": [
+    "musky",
+    "woody",
+    "fresh"
+   ],
+   "occ": [
+    "everyday",
+    "office",
+    "date"
+   ],
+   "seasons": [
+    "all-season",
+    "summer"
+   ],
+   "intensity": "moderate",
+   "longev": [
+    4,
+    6
+   ],
+   "sillage": "Close to the skin",
+   "stock": 210,
+   "rank": 4,
+   "notes": {
+    "top": [
+     "Citrus",
+     "Aldehydes"
+    ],
+    "heart": [
+     "White Floral",
+     "Soft Musk"
+    ],
+    "base": [
+     "Creamy Musk",
+     "Sandalwood",
+     "Amber"
+    ]
+   }
+  },
+  {
+   "slug": "indian-vetiver",
+   "name": "Indian Vetiver",
+   "family": "Fresh · Earthy",
+   "type": "edp",
+   "short": "Fresh earth. Green woods. Indian soul.",
+   "mrp": 1099,
+   "price": 799,
+   "size": "50 ml",
+   "ml": 50,
+   "badge": "",
+   "pal": {
+    "top": "#4C6041",
+    "bot": "#1F2C1B",
+    "cap": "#241D19"
+   },
+   "fams": [
+    "fresh",
+    "earthy",
+    "woody"
+   ],
+   "occ": [
+    "everyday",
+    "office",
+    "festive"
+   ],
+   "seasons": [
+    "summer",
+    "monsoon",
+    "all-season"
+   ],
+   "intensity": "moderate",
+   "longev": [
+    4,
+    6
+   ],
+   "sillage": "Close to the skin",
+   "stock": 160,
+   "rank": 6,
+   "notes": {
+    "top": [
+     "Bergamot",
+     "Citrus"
+    ],
+    "heart": [
+     "Vetiver",
+     "Green Notes"
+    ],
+    "base": [
+     "Cedarwood",
+     "Musk",
+     "Earthy Woods"
+    ]
+   }
+  },
+  {
+   "slug": "rose-and-saffron",
+   "name": "Rose & Saffron",
+   "family": "Floral · Oriental",
+   "type": "edp",
+   "short": "Rose. Saffron. Indian luxury.",
+   "mrp": 1199,
+   "price": 899,
+   "size": "50 ml",
+   "ml": 50,
+   "badge": "For gifting",
+   "pal": {
+    "top": "#8C3446",
+    "bot": "#3E1220",
+    "cap": "#260F24"
+   },
+   "fams": [
+    "floral",
+    "oriental",
+    "woody"
+   ],
+   "occ": [
+    "wedding",
+    "evening",
+    "festive",
+    "date"
+   ],
+   "seasons": [
+    "winter",
+    "all-season"
+   ],
+   "intensity": "strong",
+   "longev": [
+    5,
+    7
+   ],
+   "sillage": "Noticeable in a room",
+   "stock": 150,
+   "rank": 3,
+   "notes": {
+    "top": [
+     "Saffron",
+     "Fresh Citrus"
+    ],
+    "heart": [
+     "Rose",
+     "Jasmine"
+    ],
+    "base": [
+     "Sandalwood",
+     "Amber",
+     "Musk"
+    ]
+   }
+  },
+  {
+   "slug": "amber-spice",
+   "name": "Amber Spice",
+   "family": "Oriental · Spicy",
+   "type": "edp",
+   "short": "Warm spice. Golden amber. Lasting impression.",
+   "mrp": 1199,
+   "price": 899,
+   "size": "50 ml",
+   "ml": 50,
+   "badge": "",
+   "pal": {
+    "top": "#A56A28",
+    "bot": "#42260F",
+    "cap": "#241D19"
+   },
+   "fams": [
+    "oriental",
+    "spicy",
+    "woody"
+   ],
+   "occ": [
+    "evening",
+    "wedding",
+    "festive"
+   ],
+   "seasons": [
+    "winter"
+   ],
+   "intensity": "strong",
+   "longev": [
+    5,
+    7
+   ],
+   "sillage": "Noticeable in a room",
+   "stock": 140,
+   "rank": 7,
+   "notes": {
+    "top": [
+     "Cardamom",
+     "Cinnamon",
+     "Citrus"
+    ],
+    "heart": [
+     "Amber",
+     "Spices",
+     "Floral Warmth"
+    ],
+    "base": [
+     "Vanilla",
+     "Sandalwood",
+     "Musk"
+    ]
+   }
+  },
+  {
+   "slug": "mitti-itra",
+   "name": "Mitti Itra",
+   "family": "Earthy · Traditional",
+   "type": "attar",
+   "short": "The fragrance of earth after rain.",
+   "mrp": 499,
+   "price": 399,
+   "size": "6 ml",
+   "ml": 6,
+   "badge": "Itra",
+   "pal": {
+    "top": "#7C5730",
+    "bot": "#3A2614",
+    "cap": "#241D19"
+   },
+   "fams": [
+    "earthy",
+    "woody"
+   ],
+   "occ": [
+    "evening",
+    "festive",
+    "everyday"
+   ],
+   "seasons": [
+    "monsoon",
+    "all-season"
+   ],
+   "intensity": "moderate",
+   "longev": [
+    6,
+    9
+   ],
+   "sillage": "Very close to the skin",
+   "stock": 120,
+   "rank": 5,
+   "notes": {
+    "top": [
+     "Baked Earth"
+    ],
+    "heart": [
+     "Mineral Warmth",
+     "Smoke"
+    ],
+    "base": [
+     "Carrier Oil",
+     "Soft Woods"
+    ]
+   }
+  },
+  {
+   "slug": "gulab-itra",
+   "name": "Gulab Itra",
+   "family": "Floral · Traditional",
+   "type": "attar",
+   "short": "Timeless rose. Traditional soul.",
+   "mrp": 499,
+   "price": 399,
+   "size": "6 ml",
+   "ml": 6,
+   "badge": "Itra",
+   "pal": {
+    "top": "#A24A5C",
+    "bot": "#4A1A26",
+    "cap": "#260F24"
+   },
+   "fams": [
+    "floral"
+   ],
+   "occ": [
+    "everyday",
+    "wedding",
+    "festive"
+   ],
+   "seasons": [
+    "all-season",
+    "winter"
+   ],
+   "intensity": "soft",
+   "longev": [
+    5,
+    8
+   ],
+   "sillage": "Very close to the skin",
+   "stock": 130,
+   "rank": 8,
+   "notes": {
+    "top": [
+     "Rose Petal"
+    ],
+    "heart": [
+     "Damask Rose",
+     "Soft Spice"
+    ],
+    "base": [
+     "Carrier Oil",
+     "Warm Woods"
+    ]
+   }
+  },
+  {
+   "slug": "khus-itra",
+   "name": "Khus Itra",
+   "family": "Earthy · Fresh",
+   "type": "attar",
+   "short": "Green earth. Deep roots. Quiet freshness.",
+   "mrp": 499,
+   "price": 399,
+   "size": "6 ml",
+   "ml": 6,
+   "badge": "Itra",
+   "pal": {
+    "top": "#5B7048",
+    "bot": "#23301B",
+    "cap": "#241D19"
+   },
+   "fams": [
+    "earthy",
+    "fresh"
+   ],
+   "occ": [
+    "everyday",
+    "office"
+   ],
+   "seasons": [
+    "summer",
+    "monsoon"
+   ],
+   "intensity": "soft",
+   "longev": [
+    5,
+    7
+   ],
+   "sillage": "Very close to the skin",
+   "stock": 110,
+   "rank": 9,
+   "notes": {
+    "top": [
+     "Green Vetiver"
+    ],
+    "heart": [
+     "Khus Root",
+     "Dry Grass"
+    ],
+    "base": [
+     "Carrier Oil",
+     "Cedar"
+    ]
+   }
+  },
+  {
+   "slug": "discovery-collection",
+   "name": "The Discovery Collection",
+   "family": "Discovery set",
+   "type": "set",
+   "short": "Five signature fragrances, 2 ml each.",
+   "mrp": 499,
+   "price": 299,
+   "size": "5 × 2 ml",
+   "ml": 10,
+   "badge": "Start here",
+   "pal": {
+    "top": "#6B4527",
+    "bot": "#2B1A11",
+    "cap": "#241D19"
+   },
+   "fams": [
+    "woody",
+    "floral",
+    "fresh",
+    "oriental",
+    "musky"
+   ],
+   "occ": [
+    "everyday",
+    "evening",
+    "office",
+    "date",
+    "wedding",
+    "festive"
+   ],
+   "seasons": [
+    "all-season"
+   ],
+   "intensity": "moderate",
+   "longev": [
+    4,
+    8
+   ],
+   "sillage": "Varies by fragrance",
+   "stock": 400,
+   "rank": 2,
+   "notes": {
+    "top": [
+     "Five compositions"
+    ],
+    "heart": [
+     "2 ml each"
+    ],
+    "base": [
+     "₹150 credit on a full size"
+    ]
+   }
+  },
+  {
+   "slug": "signature-duo",
+   "name": "The Signature Duo",
+   "family": "Gift set",
+   "type": "set",
+   "short": "Any two signature eaux de parfum.",
+   "mrp": 2398,
+   "price": 1599,
+   "size": "2 × 50 ml",
+   "ml": 100,
+   "badge": "Gift",
+   "pal": {
+    "top": "#5A3E6B",
+    "bot": "#241031",
+    "cap": "#260F24"
+   },
+   "fams": [
+    "woody",
+    "floral",
+    "oriental",
+    "musky",
+    "fresh"
+   ],
+   "occ": [
+    "wedding",
+    "festive",
+    "date"
+   ],
+   "seasons": [
+    "all-season"
+   ],
+   "intensity": "strong",
+   "longev": [
+    4,
+    8
+   ],
+   "sillage": "Varies by fragrance",
+   "stock": 70,
+   "rank": 10,
+   "notes": {
+    "top": [
+     "Two full sizes"
+    ],
+    "heart": [
+     "Your choice of pairing"
+    ],
+    "base": [
+     "Rigid gift carton"
+    ]
+   }
+  },
+  {
+   "slug": "itra-discovery-box",
+   "name": "Itra Discovery Box",
+   "family": "Gift set",
+   "type": "set",
+   "short": "Mitti, Gulab and Khus in full size.",
+   "mrp": 1497,
+   "price": 999,
+   "size": "3 × 6 ml",
+   "ml": 18,
+   "badge": "Gift",
+   "pal": {
+    "top": "#8A6440",
+    "bot": "#3A2A1E",
+    "cap": "#241D19"
+   },
+   "fams": [
+    "earthy",
+    "floral",
+    "fresh"
+   ],
+   "occ": [
+    "wedding",
+    "festive",
+    "everyday"
+   ],
+   "seasons": [
+    "all-season"
+   ],
+   "intensity": "soft",
+   "longev": [
+    5,
+    9
+   ],
+   "sillage": "Very close to the skin",
+   "stock": 85,
+   "rank": 11,
+   "notes": {
+    "top": [
+     "Three traditional itras"
+    ],
+    "heart": [
+     "Full 6 ml each"
+    ],
+    "base": [
+     "Rigid gift carton"
+    ]
+   }
+  }
+ ],
+ "COLLECTIONS": [
+  {
+   "slug": "oud",
+   "kind": "family",
+   "title": "Oud",
+   "tag": "Resinous. Smoky. Unmistakable.",
+   "desc": "Agarwood is the most expensive raw material in perfumery, which is why almost everything at this price — ours included — is built on a composed oud accord rather than the distillate. What you get is the character: dry, resinous, a little smoky, and considerably smoother than raw agarwood."
+  },
+  {
+   "slug": "woody",
+   "kind": "family",
+   "title": "Woody",
+   "tag": "Warm. Grounded. Refined.",
+   "desc": "Wood is the backbone of Indian perfumery. Sandalwood, cedar and dry woods — warmer than the European reading of the family, and better in cool air than in heat."
+  },
+  {
+   "slug": "floral",
+   "kind": "family",
+   "title": "Floral",
+   "tag": "Rose, jasmine, saffron.",
+   "desc": "India grows some of the finest rose and jasmine in the world. Composed the Indian way: warmer and rounder than a European floral, with spice and wood underneath rather than green freshness on top."
+  },
+  {
+   "slug": "fresh",
+   "kind": "family",
+   "title": "Fresh",
+   "tag": "Citrus and cut green stems.",
+   "desc": "Built for Indian heat. Green, citrus-lifted and dry — the compositions that stay comfortable above thirty-five degrees, when anything sweet turns cloying."
+  },
+  {
+   "slug": "musky",
+   "kind": "family",
+   "title": "Musk",
+   "tag": "Quiet. Close to the skin.",
+   "desc": "The quietest thing in perfumery and often the most memorable. These read as clean skin rather than as a scent, which is exactly why they work underneath everything else."
+  },
+  {
+   "slug": "oriental",
+   "kind": "family",
+   "title": "Amber",
+   "tag": "Resin, vanilla, golden warmth.",
+   "desc": "Warm, resinous and spice-led. The richest compositions in the range, and the ones that perform best after dark and in cooler weather."
+  },
+  {
+   "slug": "spicy",
+   "kind": "family",
+   "title": "Spicy",
+   "tag": "Cardamom, pepper, cinnamon.",
+   "desc": "Spice is what keeps Indian perfumery from reading as sweet. Cardamom, pepper and cinnamon give warmth without sugar."
+  },
+  {
+   "slug": "earthy",
+   "kind": "family",
+   "title": "Earthy",
+   "tag": "Wet clay and vetiver root.",
+   "desc": "The most distinctly Indian part of the catalogue. Petrichor and khus root — materials Western perfumery has almost no equivalent for."
+  },
+  {
+   "slug": "everyday",
+   "kind": "occasion",
+   "title": "Everyday",
+   "tag": "The ones you reach for without thinking.",
+   "desc": "Moderate, well-mannered compositions that work in an office, on a commute and in a lift. Nothing here will announce you before you arrive."
+  },
+  {
+   "slug": "evening",
+   "kind": "occasion",
+   "title": "After Dark",
+   "tag": "Richer, warmer, closer.",
+   "desc": "Built for cooler air and lower light. Deeper woods, more spice, more presence — worn when the occasion has some weight to it."
+  },
+  {
+   "slug": "wedding",
+   "kind": "occasion",
+   "title": "For Weddings",
+   "tag": "For the occasion, and for the guests.",
+   "desc": "The compositions we would choose to give, plus the sets that work as return gifts. For twenty units and above we quote directly rather than making you use a coupon."
+  },
+  {
+   "slug": "festive",
+   "kind": "occasion",
+   "title": "Festive",
+   "tag": "Diwali, Eid and everything between.",
+   "desc": "Worn and given during festival weeks. Warm, celebratory, and presented in a rigid carton that needs no wrapping."
+  },
+  {
+   "slug": "office",
+   "kind": "occasion",
+   "title": "For the Office",
+   "tag": "Present, not pervasive.",
+   "desc": "Fragrance at work is a question of restraint. Everything here sits close to the skin and stays comfortable in an air-conditioned room."
+  },
+  {
+   "slug": "date",
+   "kind": "occasion",
+   "title": "Date",
+   "tag": "Close range, on purpose.",
+   "desc": "Compositions that reward proximity rather than projection — the ones that work at conversational distance."
+  },
+  {
+   "slug": "itra",
+   "kind": "edit",
+   "title": "The Itra Collection",
+   "tag": "Alcohol-free. Oil-based. Traditional.",
+   "desc": "Concentrated fragrance oils made the traditional way — applied in drops rather than sprays, worn close to the skin, and lasting longer than they project.",
+   "items": [
+    "mitti-itra",
+    "gulab-itra",
+    "khus-itra",
+    "itra-discovery-box"
+   ]
+  },
+  {
+   "slug": "gifts",
+   "kind": "edit",
+   "title": "Gifting",
+   "tag": "Ready to give, nothing to wrap.",
+   "desc": "Presented in rigid boxes, with a handwritten note if you want one. We leave the invoice out of the parcel when a gift note is attached.",
+   "items": [
+    "signature-duo",
+    "itra-discovery-box",
+    "discovery-collection",
+    "rose-and-saffron"
+   ]
+  },
+  {
+   "slug": "start-here",
+   "kind": "edit",
+   "title": "Where to Start",
+   "tag": "The six we would hand you first.",
+   "desc": "A ranking by units sold is the honest way to run this shelf, and we will run it that way once there are units sold. Nothing has shipped yet, so for now these six are chosen by hand — the two families most people get on with, the set that lets you try five, and one itra. We would rather tell you it is hand-picked than dress a hand-picked list up as data.",
+   "items": [
+    "oud-and-woods",
+    "discovery-collection",
+    "rose-and-saffron",
+    "royal-musk",
+    "mitti-itra",
+    "indian-vetiver"
+   ]
+  }
+ ],
+ "DETAIL": {
+  "oud-and-woods": {
+   "profile": {
+    "Woody": 9,
+    "Intensity": 8,
+    "Spicy": 6,
+    "Sweet": 5,
+    "Fresh": 3,
+    "Floral": 2
+   },
+   "story": {
+    "i": "The hour after sunset at a winter wedding — woodsmoke somewhere in the distance, attar on a borrowed shawl, everything warm and close.",
+    "s": "It opens bright and citrus-lifted, then settles quickly into wood. The oud accord is smooth rather than medicinal — closer to polished sandalwood than raw agarwood — sitting on amber and musk that keep it soft against the skin.",
+    "c": "Composed rather than loud. It reads as considered, which is why it works better at close range than across a room.",
+    "w": "After dark, in cooler weather, when the occasion has some weight to it."
+   },
+   "wear": "Two sprays are enough for most people — one on each wrist, or one wrist and the base of the throat. Do not rub; let it open on the skin. A third spray on a scarf or collar extends it without increasing what the people around you smell.",
+   "benefits": [
+    [
+     "Depth without volume",
+     "A woody composition built for presence at conversational distance rather than across a room."
+    ],
+    [
+     "Made for evenings",
+     "Suited to dinners, celebrations and occasions with some formality behind them."
+    ],
+    [
+     "Indian structure",
+     "Contemporary perfumery drawing on Indian oud and sandalwood traditions, not imitating a European brief."
+    ],
+    [
+     "Gift ready",
+     "Presented in a rigid carton that needs no additional wrapping."
+    ]
+   ],
+   "faqs": [
+    [
+     "How long does it last?",
+     "In our own wear-testing it stays clearly detectable for six to eight hours, with a close skin scent after that. Longevity genuinely varies with skin type, weather and how much you apply, so treat this as a measured range rather than a promise."
+    ],
+    [
+     "Is it too strong for daily wear?",
+     "It is our most intense composition. Two sprays suit most people. For an office, Royal Musk or Indian Vetiver will serve you better."
+    ],
+    [
+     "Does it contain real oud?",
+     "It uses an oud accord — a composed blend giving the character of agarwood. Genuine distilled agarwood runs into lakhs of rupees per kilogram and could not be sold at this price. We would rather tell you that than imply otherwise."
+    ]
+   ],
+   "comp": {
+    "net": "50 ml",
+    "hsn": "3303",
+    "shelf": 36,
+    "conc": "Eau de Parfum · approx. 18% fragrance oil",
+    "ing": "Alcohol Denat., Parfum (Fragrance), Aqua. Full INCI declaration to be printed from the manufacturer's certificate of analysis.",
+    "dir": "Spray two to four times on pulse points. Do not rub after applying.",
+    "warn": [
+     "For external use only.",
+     "Flammable. Keep away from heat, sparks and open flame.",
+     "Avoid contact with eyes.",
+     "Discontinue use if irritation occurs.",
+     "Keep out of reach of children."
+    ]
+   }
+  },
+  "royal-musk": {
+   "profile": {
+    "Woody": 5,
+    "Intensity": 5,
+    "Spicy": 2,
+    "Sweet": 4,
+    "Fresh": 7,
+    "Floral": 5
+   },
+   "story": {
+    "i": "Clean cotton drying on a terrace in the late afternoon — nothing dramatic, just the smell of something well looked after.",
+    "s": "A citrus and aldehyde opening that reads as brightness rather than fruit, settling into a soft white floral and then into creamy musk over sandalwood.",
+    "c": "The quietest thing we make, and the one most people end up wearing most often. It reads as skin rather than as fragrance.",
+    "w": "Every day. Offices, commutes, lifts, meetings — anywhere projecting would be a mistake."
+   },
+   "wear": "Two to three sprays. Musk sits close by nature, so applying more increases how long it lasts rather than how far it carries.",
+   "benefits": [
+    [
+     "Works everywhere",
+     "Moderate by design. Nothing about it will be the first thing someone notices about you."
+    ],
+    [
+     "Layers well",
+     "Musk under a heavier fragrance gives it a base to sit on. Try it beneath Oud & Woods in winter."
+    ],
+    [
+     "All-season",
+     "One of two in the range that holds up in Indian summer as well as in December."
+    ],
+    [
+     "Unisex by composition",
+     "Not a men's fragrance with a softer label — composed unisex from the brief onwards."
+    ]
+   ],
+   "faqs": [
+    [
+     "Is musk animal-derived?",
+     "No. Every musk in modern perfumery at this price is synthetic, including ours. There is no ethical or affordable natural alternative, and we would not use one if there were."
+    ],
+    [
+     "Will people notice it?",
+     "At arm's length, yes. Across a room, probably not. That is the point of the composition rather than a shortcoming of it."
+    ],
+    [
+     "How long does it last?",
+     "Four to six hours in our wear-testing, longer on moisturised skin."
+    ]
+   ],
+   "comp": {
+    "net": "50 ml",
+    "hsn": "3303",
+    "shelf": 36,
+    "conc": "Eau de Parfum · approx. 18% fragrance oil",
+    "ing": "Alcohol Denat., Parfum (Fragrance), Aqua. Full INCI declaration to be printed from the manufacturer's certificate of analysis.",
+    "dir": "Spray two to four times on pulse points. Do not rub after applying.",
+    "warn": [
+     "For external use only.",
+     "Flammable. Keep away from heat, sparks and open flame.",
+     "Avoid contact with eyes.",
+     "Discontinue use if irritation occurs.",
+     "Keep out of reach of children."
+    ]
+   }
+  },
+  "indian-vetiver": {
+   "profile": {
+    "Woody": 7,
+    "Intensity": 5,
+    "Spicy": 2,
+    "Sweet": 2,
+    "Fresh": 9,
+    "Floral": 1
+   },
+   "story": {
+    "i": "Khus screens hung in a doorway in May, water thrown over them, the whole room turning cool and green for an hour.",
+    "s": "Bergamot and citrus at the top, then vetiver root — dry, green, faintly smoky — over cedar and a clean musk. Almost no sweetness anywhere in it.",
+    "c": "Bracing rather than comforting. The most obviously Indian of the five, and the one that behaves best in heat.",
+    "w": "Daytime, warm weather, outdoors. It is the summer answer in this range."
+   },
+   "wear": "Three sprays in hot weather — heat lifts a fresh composition faster than a warm one. Reapply after the afternoon if you want it into the evening.",
+   "benefits": [
+    [
+     "Built for Indian heat",
+     "Green and dry rather than sweet, which is what stops a fragrance turning cloying above thirty-five degrees."
+    ],
+    [
+     "Recognisably Indian",
+     "Khus has been cooling Indian rooms for centuries. This is that material in a modern structure."
+    ],
+    [
+     "Office-safe",
+     "Moderate projection. Nobody will ask you to tone it down."
+    ],
+    [
+     "Genuinely unisex",
+     "Vetiver is one of the few materials nobody has managed to gender."
+    ]
+   ],
+   "faqs": [
+    [
+     "Is this the same as khus attar?",
+     "Related but not the same. This is an alcohol-based spray with vetiver at its heart; Khus Itra is an oil applied in drops. They smell like cousins."
+    ],
+    [
+     "Does it last in summer?",
+     "Four to six hours, and less on a very hot day — heat accelerates evaporation for everyone's fragrance, not just ours."
+    ],
+    [
+     "Is it too masculine for me?",
+     "It is not composed as masculine. If you like green and dry over sweet, it will suit you."
+    ]
+   ],
+   "comp": {
+    "net": "50 ml",
+    "hsn": "3303",
+    "shelf": 36,
+    "conc": "Eau de Parfum · approx. 18% fragrance oil",
+    "ing": "Alcohol Denat., Parfum (Fragrance), Aqua. Full INCI declaration to be printed from the manufacturer's certificate of analysis.",
+    "dir": "Spray two to four times on pulse points. Do not rub after applying.",
+    "warn": [
+     "For external use only.",
+     "Flammable. Keep away from heat, sparks and open flame.",
+     "Avoid contact with eyes.",
+     "Discontinue use if irritation occurs.",
+     "Keep out of reach of children."
+    ]
+   }
+  },
+  "rose-and-saffron": {
+   "profile": {
+    "Woody": 6,
+    "Intensity": 7,
+    "Spicy": 6,
+    "Sweet": 6,
+    "Fresh": 3,
+    "Floral": 9
+   },
+   "story": {
+    "i": "A wedding card arriving in the post — saffron threads tucked into the fold, the paper holding the smell for weeks afterwards.",
+    "s": "Saffron opens it with a leathery, slightly medicinal warmth that keeps the rose from turning sugary. Jasmine widens the heart, and sandalwood and amber carry it down.",
+    "c": "The most obviously luxurious composition in the range, and the one we would reach for as a gift. Rich without being heavy.",
+    "w": "Weddings, festivals, evenings out. Cooler weather flatters it."
+   },
+   "wear": "Two sprays. Saffron is powerful in small quantities and this is composed accordingly — a third spray tips it from rich to insistent.",
+   "benefits": [
+    [
+     "Indian floral, not European",
+     "Warmer and rounder than a Western rose, with spice and wood underneath instead of green freshness on top."
+    ],
+    [
+     "The most-given",
+     "Our most frequent gift purchase, which is why it ships in the heavier carton."
+    ],
+    [
+     "Saffron done properly",
+     "Enough to be read as saffron rather than as generic warmth."
+    ],
+    [
+     "Holds its own",
+     "Strong enough for an occasion where everyone else is also wearing something."
+    ]
+   ],
+   "faqs": [
+    [
+     "Is real saffron in it?",
+     "Saffron in perfumery is usually a composed accord rather than the spice itself — safranal and related materials. Ours is an accord. The spice at market price would make the bottle several thousand rupees."
+    ],
+    [
+     "Is it a women's fragrance?",
+     "No. Rose is worn by everyone in India and has been for centuries; the gendering of rose is largely a Western marketing habit."
+    ],
+    [
+     "How strong is it?",
+     "Five to seven hours, noticeable in a room at two sprays."
+    ]
+   ],
+   "comp": {
+    "net": "50 ml",
+    "hsn": "3303",
+    "shelf": 36,
+    "conc": "Eau de Parfum · approx. 18% fragrance oil",
+    "ing": "Alcohol Denat., Parfum (Fragrance), Aqua. Full INCI declaration to be printed from the manufacturer's certificate of analysis.",
+    "dir": "Spray two to four times on pulse points. Do not rub after applying.",
+    "warn": [
+     "For external use only.",
+     "Flammable. Keep away from heat, sparks and open flame.",
+     "Avoid contact with eyes.",
+     "Discontinue use if irritation occurs.",
+     "Keep out of reach of children."
+    ]
+   }
+  },
+  "amber-spice": {
+   "profile": {
+    "Woody": 6,
+    "Intensity": 8,
+    "Spicy": 9,
+    "Sweet": 7,
+    "Fresh": 2,
+    "Floral": 3
+   },
+   "story": {
+    "i": "The spice shelf at the back of a kitchen in December — cardamom pods, a cinnamon stick, and something resinous underneath it all.",
+    "s": "Cardamom and cinnamon over citrus at the top, then amber and a warm floral heart, closing on vanilla, sandalwood and musk.",
+    "c": "Warm and enveloping. The one people reach for when it finally gets cold.",
+    "w": "Winter evenings, festival weeks, dinners. It is wasted in April."
+   },
+   "wear": "Two sprays on pulse points and, if you like, one on a coat collar — wool holds amber beautifully and releases it slowly.",
+   "benefits": [
+    [
+     "Cold-weather composition",
+     "Amber and resin need cool air. This is the winter fragrance in the range and we say so rather than selling it year round."
+    ],
+    [
+     "Spice-led, not sweet-led",
+     "Cardamom and pepper keep the vanilla in check."
+    ],
+    [
+     "Festival wear",
+     "Warm, celebratory, and it survives a long evening."
+    ],
+    [
+     "Layers with musk",
+     "A spray of Royal Musk underneath softens the opening if you find it too direct."
+    ]
+   ],
+   "faqs": [
+    [
+     "Is it very sweet?",
+     "Sweeter than the rest of our range, but spice-led rather than gourmand. It does not smell of dessert."
+    ],
+    [
+     "Can I wear it in summer?",
+     "You can, but amber turns heavy in heat. Indian Vetiver or Royal Musk will serve you better above thirty degrees."
+    ],
+    [
+     "How long does it last?",
+     "Five to seven hours, and longer on fabric than on skin."
+    ]
+   ],
+   "comp": {
+    "net": "50 ml",
+    "hsn": "3303",
+    "shelf": 36,
+    "conc": "Eau de Parfum · approx. 18% fragrance oil",
+    "ing": "Alcohol Denat., Parfum (Fragrance), Aqua. Full INCI declaration to be printed from the manufacturer's certificate of analysis.",
+    "dir": "Spray two to four times on pulse points. Do not rub after applying.",
+    "warn": [
+     "For external use only.",
+     "Flammable. Keep away from heat, sparks and open flame.",
+     "Avoid contact with eyes.",
+     "Discontinue use if irritation occurs.",
+     "Keep out of reach of children."
+    ]
+   }
+  },
+  "mitti-itra": {
+   "profile": {
+    "Woody": 6,
+    "Intensity": 6,
+    "Spicy": 3,
+    "Sweet": 2,
+    "Fresh": 3,
+    "Floral": 0
+   },
+   "story": {
+    "i": "The first rain on dry ground in June, after eight weeks of nothing. Every Indian knows this smell and no Western perfume house has a real equivalent for it.",
+    "s": "Mineral, warm and faintly smoky. Not floral at all — this is baked earth, which is exactly what goes into the still instead of flowers.",
+    "c": "The strangest and most Indian thing we sell. Worth wearing once simply because it exists.",
+    "w": "Monsoon weeks, evenings, and any time you want a fragrance that starts a conversation."
+   },
+   "wear": "A drop on each wrist and one behind the ears. Do not rub. Itra is concentrated — a 6 ml bottle is a great many wearings.",
+   "benefits": [
+    [
+     "Petrichor, bottled",
+     "Baked clay discs go into the deg instead of flowers. The result is the smell of first rain."
+    ],
+    [
+     "Alcohol-free",
+     "An oil base, which means no alcohol bite on application and a slower, closer development."
+    ],
+    [
+     "Lasts longer than it projects",
+     "Six to nine hours on skin, but close to you rather than around you."
+    ],
+    [
+     "Layers under a spray",
+     "A drop under Oud & Woods gives the wood an earthier floor."
+    ]
+   ],
+   "faqs": [
+    [
+     "Is this a natural product?",
+     "It is an aromatic blend in a cosmetic-grade carrier oil. We do not claim it is 100% natural, because we have not got documentation that would support that claim for this product."
+    ],
+    [
+     "Is it distilled into sandalwood oil?",
+     "No. Traditional attar is, but sandalwood oil trades between roughly ₹98,000 and ₹2,50,000 per kilogram, which makes a ₹399 sandalwood-base attar impossible. Ours uses a carrier oil and puts the money into aromatic concentration."
+    ],
+    [
+     "How do I know it is fresh?",
+     "Every bottle carries a batch number and a manufacturing date on the carton. Best used within thirty-six months of opening."
+    ]
+   ],
+   "comp": {
+    "net": "6 ml",
+    "hsn": "3301",
+    "shelf": 36,
+    "conc": "Itra · oil-based, alcohol-free",
+    "ing": "Perfumers' oil blend in a cosmetic-grade carrier oil. Alcohol-free. Full INCI declaration to be printed from the manufacturer's certificate of analysis.",
+    "dir": "Apply a small amount to pulse points and let it develop on the skin.",
+    "warn": [
+     "For external use only.",
+     "Avoid contact with eyes.",
+     "Patch-test before first use if you have sensitive skin.",
+     "Keep out of reach of children."
+    ]
+   }
+  },
+  "gulab-itra": {
+   "profile": {
+    "Woody": 3,
+    "Intensity": 4,
+    "Spicy": 2,
+    "Sweet": 5,
+    "Fresh": 4,
+    "Floral": 9
+   },
+   "story": {
+    "i": "Rose water sprinkled on guests at a door — the oldest welcome in the subcontinent, and still the most immediate.",
+    "s": "Soft, round and unmistakably rose, with a little warmth underneath rather than the green sharpness a European rose usually carries.",
+    "c": "Gentle and traditional. The easiest of the three itras to wear if you have never worn one.",
+    "w": "Daily, weddings, festival mornings. It suits daytime better than midnight."
+   },
+   "wear": "A drop on the wrists and, in winter, one at the base of the throat. Rose in an oil base develops for twenty minutes before it settles.",
+   "benefits": [
+    [
+     "The Indian rose",
+     "Warmer and rounder than the European reading of the same flower."
+    ],
+    [
+     "Alcohol-free",
+     "Gentler on skin that reacts to alcohol-based sprays, and quieter on application."
+    ],
+    [
+     "Good first itra",
+     "If you are new to oil perfume, start here rather than with Mitti."
+    ],
+    [
+     "Gifting standard",
+     "Rose is the least likely fragrance in the range to be disliked by someone you are buying for."
+    ]
+   ],
+   "faqs": [
+    [
+     "Is it made from real roses?",
+     "It is an aromatic rose blend in a carrier oil rather than a rose absolute, which would price the bottle far higher. The character is rose; the construction is a blend, and we say so."
+    ],
+    [
+     "Will it stain clothes?",
+     "Oil perfumes can mark light fabric. Apply to skin, let it absorb for a minute, then dress."
+    ],
+    [
+     "How long does it last?",
+     "Five to eight hours on skin in our wear-testing."
+    ]
+   ],
+   "comp": {
+    "net": "6 ml",
+    "hsn": "3301",
+    "shelf": 36,
+    "conc": "Itra · oil-based, alcohol-free",
+    "ing": "Perfumers' oil blend in a cosmetic-grade carrier oil. Alcohol-free. Full INCI declaration to be printed from the manufacturer's certificate of analysis.",
+    "dir": "Apply a small amount to pulse points and let it develop on the skin.",
+    "warn": [
+     "For external use only.",
+     "Avoid contact with eyes.",
+     "Patch-test before first use if you have sensitive skin.",
+     "Keep out of reach of children."
+    ]
+   }
+  },
+  "khus-itra": {
+   "profile": {
+    "Woody": 6,
+    "Intensity": 4,
+    "Spicy": 1,
+    "Sweet": 1,
+    "Fresh": 9,
+    "Floral": 0
+   },
+   "story": {
+    "i": "A khus screen soaked in water across a window in peak summer, the air coming through it green and about five degrees cooler.",
+    "s": "Green vetiver root, dry grass and a faint cedar underneath. There is almost no sweetness in it at all.",
+    "c": "Cooling and quiet. The itra to wear when it is too hot for anything else.",
+    "w": "Summer, monsoon, daytime. Offices, especially."
+   },
+   "wear": "A drop on each wrist. In very hot weather, one behind the knees sounds odd and works — vetiver rises.",
+   "benefits": [
+    [
+     "The summer itra",
+     "Green and dry, which is what stays comfortable when warm compositions turn heavy."
+    ],
+    [
+     "Traditional material",
+     "Khus root has been cooling Indian rooms for centuries before anyone bottled it."
+    ],
+    [
+     "Very close wearing",
+     "Among the quietest things we make. Suitable anywhere projecting would be rude."
+    ],
+    [
+     "Alcohol-free",
+     "No alcohol bite, no evaporation spike in heat."
+    ]
+   ],
+   "faqs": [
+    [
+     "How is it different from Indian Vetiver?",
+     "Same material, different construction. Indian Vetiver is an alcohol spray with citrus lift; Khus Itra is the root in oil, applied in drops, quieter and longer."
+    ],
+    [
+     "Is it unisex?",
+     "Yes. Vetiver is about as unisex as perfumery gets."
+    ],
+    [
+     "Does it smell like grass?",
+     "Like dried grass and root rather than cut lawn — earthier and drier than people expect."
+    ]
+   ],
+   "comp": {
+    "net": "6 ml",
+    "hsn": "3301",
+    "shelf": 36,
+    "conc": "Itra · oil-based, alcohol-free",
+    "ing": "Perfumers' oil blend in a cosmetic-grade carrier oil. Alcohol-free. Full INCI declaration to be printed from the manufacturer's certificate of analysis.",
+    "dir": "Apply a small amount to pulse points and let it develop on the skin.",
+    "warn": [
+     "For external use only.",
+     "Avoid contact with eyes.",
+     "Patch-test before first use if you have sensitive skin.",
+     "Keep out of reach of children."
+    ]
+   }
+  }
+ },
+ "SETDETAIL": {
+  "discovery-collection": {
+   "contents": [
+    "oud-and-woods",
+    "royal-musk",
+    "indian-vetiver",
+    "rose-and-saffron",
+    "amber-spice"
+   ],
+   "lead": "Five 2 ml sprays, one of each signature eau de parfum. Enough for roughly eight to ten wearings each — long enough to know whether a fragrance is yours.",
+   "how": [
+    "Order the set. It ships within 24 hours like anything else.",
+    "Wear each for a full day. Fifteen minutes on a card tells you almost nothing.",
+    "A code inside the box takes ₹150 off your first full size. No expiry, one use, not combinable with another offer."
+   ],
+   "comp": {
+    "net": "5 × 2 ml (10 ml)",
+    "hsn": "3303",
+    "shelf": 36,
+    "conc": "Eau de Parfum · approx. 18% fragrance oil",
+    "ing": "Alcohol Denat., Parfum (Fragrance), Aqua. Full INCI declaration to be printed from the manufacturer's certificate of analysis.",
+    "dir": "Spray on the wrist and wear for a full day before deciding.",
+    "warn": [
+     "For external use only.",
+     "Flammable. Keep away from heat, sparks and open flame.",
+     "Avoid contact with eyes.",
+     "Discontinue use if irritation occurs.",
+     "Keep out of reach of children."
+    ]
+   }
+  },
+  "signature-duo": {
+   "contents": [
+    "oud-and-woods",
+    "rose-and-saffron"
+   ],
+   "lead": "Any two full-size signature eaux de parfum in one rigid carton. The pairing shown is our most-given; you choose yours at checkout.",
+   "how": [
+    "Pick any two of the five signature fragrances.",
+    "They arrive in one rigid gift carton with a divider, needing no wrapping.",
+    "Add a handwritten note at checkout at no cost — we leave the invoice out of the parcel."
+   ],
+   "comp": {
+    "net": "2 × 50 ml (100 ml)",
+    "hsn": "3303",
+    "shelf": 36,
+    "conc": "Eau de Parfum · approx. 18% fragrance oil",
+    "ing": "Alcohol Denat., Parfum (Fragrance), Aqua. Full INCI declaration to be printed from the manufacturer's certificate of analysis.",
+    "dir": "Spray two to four times on pulse points. Do not rub after applying.",
+    "warn": [
+     "For external use only.",
+     "Flammable. Keep away from heat, sparks and open flame.",
+     "Avoid contact with eyes.",
+     "Discontinue use if irritation occurs.",
+     "Keep out of reach of children."
+    ]
+   }
+  },
+  "itra-discovery-box": {
+   "contents": [
+    "mitti-itra",
+    "gulab-itra",
+    "khus-itra"
+   ],
+   "lead": "All three itras at full 6 ml size — earth, rose and vetiver root — in a rigid presentation box. The cheapest way to own the whole traditional side of the range.",
+   "how": [
+    "Three full-size bottles, not samples.",
+    "Presented in a rigid box with a divider.",
+    "The set saves ₹498 against buying the three separately."
+   ],
+   "comp": {
+    "net": "3 × 6 ml (18 ml)",
+    "hsn": "3301",
+    "shelf": 36,
+    "conc": "Itra · oil-based, alcohol-free",
+    "ing": "Perfumers' oil blend in a cosmetic-grade carrier oil. Alcohol-free. Full INCI declaration to be printed from the manufacturer's certificate of analysis.",
+    "dir": "Apply a small amount to pulse points and let it develop on the skin.",
+    "warn": [
+     "For external use only.",
+     "Avoid contact with eyes.",
+     "Patch-test before first use if you have sensitive skin.",
+     "Keep out of reach of children."
+    ]
+   }
+  }
+ },
+ "JOURNAL": [
+  {
+   "slug": "real-attar-vs-synthetic",
+   "cat": "Fragrance education",
+   "mins": 7,
+   "title": "Real attar vs synthetic: how to tell the difference",
+   "excerpt": "Why a ₹49 rose attar exists, what is actually inside it, and how to judge what you are buying — including what is in ours.",
+   "a": "#6B4527",
+   "b": "#241610"
+  },
+  {
+   "slug": "how-attar-is-made-in-kannauj",
+   "cat": "Heritage",
+   "mins": 6,
+   "title": "How attar is made in Kannauj",
+   "excerpt": "Copper stills, bamboo condensers, and a distillation method that has barely changed in four hundred years.",
+   "a": "#8A6440",
+   "b": "#2A1E12"
+  },
+  {
+   "slug": "how-to-make-perfume-last-longer",
+   "cat": "How to",
+   "mins": 5,
+   "title": "How to make fragrance last on Indian skin",
+   "excerpt": "Seven things that genuinely change longevity, and three that do not.",
+   "a": "#4C6041",
+   "b": "#1B2617"
+  }
+ ],
+ "ARTICLES": {
+  "real-attar-vs-synthetic": {
+   "date": "4 February 2026",
+   "body": [
+    [
+     null,
+     [
+      "Walk through any market in India and you will find rose attar at ₹49 for 12 ml, and rose attar at ₹4,000 for the same volume. Both are labelled the same way. Neither is necessarily lying. The difference is almost entirely in the base."
+     ]
+    ],
+    [
+     "What an attar actually is",
+     [
+      "Traditionally an attar is made by hydro-distillation: flowers go into a copper still called a deg, and the aromatic vapour is received directly into a second vessel — the bhapka — containing sandalwood oil. The sandalwood absorbs the aroma over repeated cycles. This is the method Kannauj holds a Geographical Indication for.",
+      "The problem is arithmetic. Indian sandalwood oil currently trades between roughly ₹98,000 and ₹2,50,000 per kilogram. A 6 ml bottle of true sandalwood-base attar cannot be sold for ₹399, or ₹999, or anything close to it."
+     ]
+    ],
+    [
+     "So what is in the affordable ones",
+     [
+      "A carrier. Commonly DPG — dipropylene glycol, a cosmetic-grade solvent — or cheaper plasticiser-grade materials costing a few hundred rupees a kilogram. A carrier is not a scandal; almost every fragrance on earth is aromatic material dissolved in something. The question is what proportion of the bottle is aroma and what proportion is filler.",
+      "At ₹49 for 12 ml, the aromatic content is necessarily tiny. That is how the price works."
+     ]
+    ],
+    [
+     "How to judge what you are buying",
+     [
+      "Four things tell you most of what you need. Ask what the base is — a seller who will not answer has told you the answer. Apply one drop and check it at four and eight hours. Look at colour and viscosity: real oils are rarely water-clear and rarely water-thin. And buy the same product twice, six weeks apart, and compare — batch drift is the most common failure in this trade and almost nobody tests for it."
+     ]
+    ],
+    [
+     "What is in ours",
+     [
+      "Our itras use a cosmetic-grade carrier oil, not sandalwood oil, and we would rather say that on a page you can read than imply otherwise on a label. What we do instead is put the money into aromatic concentration. That is a real trade-off and you should judge it by wearing the product, not by reading this."
+     ]
+    ]
+   ]
+  },
+  "how-attar-is-made-in-kannauj": {
+   "date": "18 February 2026",
+   "body": [
+    [
+     null,
+     [
+      "Kannauj sits about 350 kilometres south-east of Delhi in Uttar Pradesh. It has been distilling fragrance for long enough that the Mughal court bought from it, and the district holds a Geographical Indication for its perfume."
+     ]
+    ],
+    [
+     "The deg and the bhapka",
+     [
+      "The deg is a copper vessel, roughly cauldron-shaped, sealed with a paste of clay and cotton. Flowers and water go in. Underneath it, a wood fire — controlled by a distiller who reads the sound of the boil rather than a thermometer.",
+      "The vapour travels through a bamboo pipe into a receiver, the bhapka, partly submerged in a water tank for cooling. Crucially the bhapka already contains sandalwood oil: the aromatic vapour condenses directly into it and is absorbed, across multiple distillations."
+     ]
+    ],
+    [
+     "Mitti: the one nobody else makes",
+     [
+      "Mitti attar is the strangest thing Kannauj does and the most Indian. Instead of flowers, baked clay discs go into the still — the same clay used for earthenware. The result is petrichor: the smell of first rain on dry ground, captured and bottled.",
+      "No Western perfume house has a real equivalent. It is worth wearing once simply because it exists."
+     ]
+    ],
+    [
+     "An industry under pressure",
+     [
+      "Kannauj had several hundred working distilleries in the 1990s. Today the figure is considerably lower. Sandalwood cost, synthetic substitutes and a generation moving to other work have all taken their share. The GI tag has not measurably reversed it.",
+      "That is the honest context for anything sold on Kannauj's name — including ours."
+     ]
+    ]
+   ]
+  },
+  "how-to-make-perfume-last-longer": {
+   "date": "5 March 2026",
+   "body": [
+    [
+     null,
+     [
+      "Longevity is the most common complaint about fragrance in India, and a fair amount of it is application rather than product. Here is what genuinely helps."
+     ]
+    ],
+    [
+     "What works",
+     [
+      "Apply to moisturised skin. Dry skin holds fragrance poorly, and Indian air-conditioning is very drying.",
+      "Apply to pulse points — wrists, base of the throat, behind the ears. Warmth drives projection.",
+      "Do not rub your wrists together. It is the single most common mistake; friction and heat break the top notes down faster.",
+      "Spray onto skin rather than clothes where the fabric allows. Skin develops a fragrance; cloth holds the top of it.",
+      "Store the bottle away from light and heat. A bathroom windowsill is the worst place in the house.",
+      "Choose concentration honestly. An eau de toilette at 8% will not behave like an eau de parfum at 18%, whatever the marketing says.",
+      "Layer. An unscented body oil, or a drop of a complementary itra, gives the fragrance a base to sit on."
+     ]
+    ],
+    [
+     "What does not work",
+     [
+      "Spraying more. Past about four sprays you are increasing sillage, not longevity.",
+      "Petroleum jelly on pulse points. It changes almost nothing and is unpleasant.",
+      "Keeping the bottle in the fridge. Temperature stability matters; cold does not."
+     ]
+    ],
+    [
+     "And a caveat",
+     [
+      "Skin chemistry is real. The same fragrance can last eight hours on one person and three on another, and neither is doing anything wrong. This is why we quote longevity as a range and not a number, and why we would rather sell you a ₹299 sample set than a ₹899 bottle you end up not wearing."
+     ]
+    ]
+   ]
+  }
+ },
+ "POLICY": {
+  "shipping": [
+   "Shipping policy",
+   "Delivery",
+   "Where your order goes, how long it takes, and what happens when something goes wrong in transit.",
+   [
+    [
+     "Dispatch",
+     [
+      "Orders placed before 4 pm on a working day are dispatched within 24 hours. Orders placed on Sundays and public holidays are dispatched the next working day."
+     ]
+    ],
+    [
+     "Charges",
+     [
+      "Shipping is ₹79 on orders below ₹999 and free above it. Express delivery, where the PIN code supports it, is ₹149. Cash on delivery adds a ₹49 handling fee and is available up to ₹5,000."
+     ]
+    ],
+    [
+     "Timelines",
+     [
+      "Typically 2–4 working days in metro cities and 4–7 working days elsewhere. These are courier estimates rather than guarantees, and monsoon and festival weeks do affect them."
+     ]
+    ],
+    [
+     "If a parcel is damaged or lost",
+     [
+      "Photograph the parcel before opening it if it looks tampered with, and write to us within 48 hours of delivery. Parcels damaged in transit are replaced or refunded at our cost."
+     ]
+    ],
+    [
+     "International",
+     [
+      "We do not ship outside India yet. Alcohol-based fragrance is classified as dangerous goods for air transport, which requires specific packaging, documentation and carrier approval. We would rather launch it properly than badly."
+     ]
+    ]
+   ]
+  ],
+  "returns": [
+   "Return &amp; refund policy",
+   "Returns",
+   "Seven days, no argument on unopened items — and an honest explanation of why opened fragrance is different.",
+   [
+    [
+     "What can be returned",
+     [
+      "Unopened items in their original packaging, within seven days of delivery. The outer carton, bottle and any seals should be intact."
+     ]
+    ],
+    [
+     "What cannot",
+     [
+      "Opened fragrance cannot be returned for hygiene reasons, unless it arrived damaged, leaked in transit, or is not the product you ordered. In those cases we cover the return shipping and the replacement."
+     ]
+    ],
+    [
+     "How to start a return",
+     [
+      "Write to us with your order number and, where relevant, a photograph. We arrange a reverse pickup where the courier services your PIN code, and send a prepaid label where it does not."
+     ]
+    ],
+    [
+     "Refunds",
+     [
+      "Credited to the original payment method within 5–7 working days of the item reaching us. Cash-on-delivery orders are refunded by bank transfer to an account you nominate."
+     ]
+    ],
+    [
+     "Why we sell a ₹299 discovery set",
+     [
+      "Because the honest answer to “what if I do not like it” is to smell it before spending ₹899, not to build a return policy that pretends fragrance can be tried and sent back."
+     ]
+    ]
+   ]
+  ],
+  "privacy": [
+   "Privacy policy",
+   "Your data",
+   "What we collect, why, and what we deliberately do not collect.",
+   [
+    [
+     "What we collect",
+     [
+      "Your email address, and — if you place an order — your name, delivery address and phone number. That is what an order needs. We do not ask for your date of birth, your gender or a profile photograph."
+     ]
+    ],
+    [
+     "Why",
+     [
+      "To process and deliver your order, to send transactional messages about it, to answer support requests, and to meet Indian tax and accounting obligations."
+     ]
+    ],
+    [
+     "Marketing",
+     [
+      "Separate from the above, and opt-in. You can turn marketing email, SMS and WhatsApp on or off individually in your account, and turning all of them off does not stop order emails."
+     ]
+    ],
+    [
+     "Retention",
+     [
+      "Profile data is deleted when you delete your account. Order and invoice records are retained for the statutory period under Indian tax law, detached from your profile."
+     ]
+    ],
+    [
+     "Sharing",
+     [
+      "With the courier that delivers your parcel, the payment provider that processes your payment, and the email provider that sends your confirmations. Nobody else, and never for sale."
+     ]
+    ]
+   ]
+  ],
+  "terms": [
+   "Terms of service",
+   "Terms",
+   "The basis on which we sell to you.",
+   [
+    [
+     "Pricing",
+     [
+      "Prices are in Indian rupees and inclusive of GST. We print one price and hold it rather than inflating an MRP and discounting against it. Prices can change, but the price shown when you place an order is the price you pay."
+     ]
+    ],
+    [
+     "Product descriptions",
+     [
+      "Fragrance notes, families and character scores are our own assessment of each composition and are described as such. Longevity is quoted as a measured range because it varies with skin, climate and application. We do not make claims about naturalness, certification or therapeutic effect that our documentation does not support."
+     ]
+    ],
+    [
+     "Orders",
+     [
+      "An order is an offer to buy, accepted when we dispatch it. We can decline an order — for a pricing error, a stock problem, or a suspected fraudulent payment — and refund it in full."
+     ]
+    ],
+    [
+     "Liability",
+     [
+      "Fragrance is for external use only. Patch-test if you have sensitive skin and discontinue use if irritation occurs. We are not liable for indirect loss beyond the value of the order."
+     ]
+    ],
+    [
+     "Governing law",
+     [
+      "These terms are governed by Indian law."
+     ]
+    ]
+   ]
+  ]
+ },
+ "FACETS": [
+  {
+   "key": "type",
+   "title": "Type",
+   "opts": [
+    [
+     "edp",
+     "Eau de Parfum"
+    ],
+    [
+     "attar",
+     "Itra / Attar"
+    ],
+    [
+     "set",
+     "Sets & gifting"
+    ]
+   ],
+   "test": "(p,v) => p.type === v"
+  },
+  {
+   "key": "family",
+   "title": "Family",
+   "opts": [
+    [
+     "oud",
+     "Oud"
+    ],
+    [
+     "woody",
+     "Woody"
+    ],
+    [
+     "floral",
+     "Floral"
+    ],
+    [
+     "fresh",
+     "Fresh"
+    ],
+    [
+     "musky",
+     "Musk"
+    ],
+    [
+     "oriental",
+     "Amber"
+    ],
+    [
+     "spicy",
+     "Spicy"
+    ],
+    [
+     "earthy",
+     "Earthy"
+    ]
+   ],
+   "test": "(p,v) => p.fams.indexOf(v) > -1"
+  },
+  {
+   "key": "occ",
+   "title": "Occasion",
+   "opts": [
+    [
+     "everyday",
+     "Everyday"
+    ],
+    [
+     "office",
+     "Office"
+    ],
+    [
+     "date",
+     "Date"
+    ],
+    [
+     "wedding",
+     "Wedding"
+    ],
+    [
+     "evening",
+     "Evening"
+    ],
+    [
+     "festive",
+     "Festive"
+    ]
+   ],
+   "test": "(p,v) => p.occ.indexOf(v) > -1"
+  },
+  {
+   "key": "season",
+   "title": "Season",
+   "opts": [
+    [
+     "summer",
+     "Summer"
+    ],
+    [
+     "monsoon",
+     "Monsoon"
+    ],
+    [
+     "winter",
+     "Winter"
+    ],
+    [
+     "all-season",
+     "All season"
+    ]
+   ],
+   "test": "(p,v) => p.seasons.indexOf(v) > -1"
+  },
+  {
+   "key": "int",
+   "title": "Intensity",
+   "opts": [
+    [
+     "soft",
+     "Close to the skin"
+    ],
+    [
+     "moderate",
+     "Noticeable"
+    ],
+    [
+     "strong",
+     "Makes an entrance"
+    ]
+   ],
+   "test": "(p,v) => p.intensity === v"
+  },
+  {
+   "key": "long",
+   "title": "Longevity",
+   "opts": [
+    [
+     "short",
+     "Up to 5 hours"
+    ],
+    [
+     "mid",
+     "5 to 7 hours"
+    ],
+    [
+     "long",
+     "7 hours and beyond"
+    ]
+   ],
+   "test": "(p,v) => v === \"short\" ? p.longev[1] <= 5 : v === \"mid\" ? (p.longev[1] > 5 && p.longev[1] < 8) : p.longev[1] >= 8"
+  },
+  {
+   "key": "price",
+   "title": "Price",
+   "opts": [
+    [
+     "0",
+     "Under ₹500"
+    ],
+    [
+     "1",
+     "₹500 – ₹1,000"
+    ],
+    [
+     "2",
+     "₹1,000 – ₹1,500"
+    ],
+    [
+     "3",
+     "₹1,500 and above"
+    ]
+   ],
+   "test": "(p,v) => { const b = BANDS[+v]; return b && p.price >= b.min && p.price <= b.max; }"
+  }
+ ],
+ "SORTS": {
+  "featured": "Featured",
+  "price-asc": "Price: low to high",
+  "price-desc": "Price: high to low",
+  "name": "Name: A–Z",
+  "longevity": "Longest lasting"
+ },
+ "COMMERCE": {
+  "freeShip": 999,
+  "shipping": 79,
+  "express": 149,
+  "codFee": 49,
+  "codMax": 5000,
+  "gst": 0.18,
+  "returnDays": 7
+ },
+ "TYPE_LABEL": {
+  "edp": "Eau de Parfum",
+  "attar": "Itra / Attar",
+  "set": "Sets & gifting"
+ },
+ "FAM_LABEL": {
+  "oud": "Oud",
+  "woody": "Woody",
+  "floral": "Floral",
+  "fresh": "Fresh",
+  "musky": "Musk",
+  "oriental": "Amber",
+  "spicy": "Spicy",
+  "earthy": "Earthy"
+ },
+ "OCC_LABEL": {
+  "everyday": "Everyday",
+  "office": "Office",
+  "date": "Date",
+  "wedding": "Wedding",
+  "evening": "Evening",
+  "festive": "Festive"
+ },
+ "SEASON_LABEL": {
+  "summer": "Summer",
+  "monsoon": "Monsoon",
+  "winter": "Winter",
+  "all-season": "All season"
+ },
+ "INT_LABEL": {
+  "soft": "Close to the skin",
+  "moderate": "Noticeable",
+  "strong": "Makes an entrance"
+ },
+ "WEIGHTS": {
+  "family": 30,
+  "notes": 20,
+  "occasion": 15,
+  "budget": 10,
+  "season": 10,
+  "intensity": 5,
+  "longevity": 5,
+  "popularity": 5
+ },
+ "MAX_QUESTIONS": 6,
+ "QUESTIONS": [
+  {
+   "key": "who",
+   "kind": "single",
+   "opts": [
+    [
+     "Myself",
+     "me",
+     "Something you will wear"
+    ],
+    [
+     "A gift",
+     "gift",
+     "For someone else"
+    ]
+   ]
+  },
+  {
+   "key": "family",
+   "kind": "multi",
+   "max": 2,
+   "opts": [
+    [
+     "Wood and dry cedar",
+     "woody",
+     "Woody"
+    ],
+    [
+     "Smoke and resin",
+     "oud",
+     "Oud"
+    ],
+    [
+     "Flowers — rose and jasmine",
+     "floral",
+     "Floral"
+    ],
+    [
+     "Green, citrus, cut stems",
+     "fresh",
+     "Fresh"
+    ],
+    [
+     "Wet earth after rain",
+     "earthy",
+     "Earthy"
+    ],
+    [
+     "Clean skin, barely there",
+     "musky",
+     "Musk"
+    ],
+    [
+     "Warm amber and vanilla",
+     "oriental",
+     "Amber"
+    ],
+    [
+     "Cardamom and pepper",
+     "spicy",
+     "Spicy"
+    ]
+   ]
+  },
+  {
+   "key": "occasion",
+   "kind": "multi",
+   "max": 2,
+   "opts": [
+    [
+     "Everyday",
+     "everyday",
+     ""
+    ],
+    [
+     "Office",
+     "office",
+     ""
+    ],
+    [
+     "Date",
+     "date",
+     ""
+    ],
+    [
+     "Wedding",
+     "wedding",
+     ""
+    ],
+    [
+     "Evening",
+     "evening",
+     ""
+    ],
+    [
+     "Festive",
+     "festive",
+     ""
+    ],
+    [
+     "No particular occasion",
+     "any",
+     ""
+    ]
+   ]
+  },
+  {
+   "key": "season",
+   "kind": "single",
+   "opts": [
+    [
+     "Hot most of the year",
+     "summer",
+     "Above thirty for months"
+    ],
+    [
+     "Humid and rainy",
+     "monsoon",
+     "Monsoon country"
+    ],
+    [
+     "Proper winters",
+     "winter",
+     "Cold enough for wool"
+    ],
+    [
+     "All four seasons",
+     "all-season",
+     "A bit of everything"
+    ]
+   ]
+  },
+  {
+   "key": "intensity",
+   "kind": "single",
+   "opts": [
+    [
+     "Only to people close by",
+     "soft",
+     "Skin scent"
+    ],
+    [
+     "Noticeable in a room",
+     "moderate",
+     "Present, not loud"
+    ],
+    [
+     "It should announce itself",
+     "strong",
+     "Makes an entrance"
+    ],
+    [
+     "No strong feeling",
+     "any",
+     ""
+    ]
+   ]
+  },
+  {
+   "key": "type",
+   "kind": "single",
+   "opts": [
+    [
+     "A spray, like most perfume",
+     "edp",
+     "Eau de parfum"
+    ],
+    [
+     "A traditional itra",
+     "attar",
+     "Applied in drops"
+    ],
+    [
+     "Either is fine",
+     "any",
+     ""
+    ]
+   ]
+  },
+  {
+   "key": "budget",
+   "kind": "single",
+   "opts": [
+    [
+     "Under ₹500",
+     "low",
+     ""
+    ],
+    [
+     "₹500 to ₹1,000",
+     "mid",
+     ""
+    ],
+    [
+     "₹1,000 and above",
+     "high",
+     ""
+    ],
+    [
+     "Whatever suits best",
+     "any",
+     ""
+    ]
+   ]
+  },
+  {
+   "key": "dislike",
+   "kind": "multi",
+   "max": 3,
+   "opts": [
+    [
+     "Sweetness",
+     "sweet",
+     ""
+    ],
+    [
+     "Smoke and resin",
+     "smoke",
+     ""
+    ],
+    [
+     "Strong florals",
+     "floral",
+     ""
+    ],
+    [
+     "Anything heavy",
+     "heavy",
+     ""
+    ],
+    [
+     "Nothing in particular",
+     "none",
+     ""
+    ]
+   ]
+  }
+ ],
+ "DISLIKE_MAP": {
+  "sweet": {
+   "label": "Sweetness",
+   "test": "function(p){ return (DETAIL[p.slug] && DETAIL[p.slug].profile.Sweet >= 6); }"
+  },
+  "smoke": {
+   "label": "Smoke and resin",
+   "test": "function(p){ return p.fams.indexOf(\"oud\") > -1 || p.fams.indexOf(\"oriental\") > -1; }"
+  },
+  "floral": {
+   "label": "Strong florals",
+   "test": "function(p){ return (DETAIL[p.slug] && DETAIL[p.slug].profile.Floral >= 7); }"
+  },
+  "heavy": {
+   "label": "Anything heavy",
+   "test": "function(p){ return p.intensity === \"strong\"; }"
+  }
+ },
+ "FAMILY_PLAIN": {
+  "woody": "Wood and dry cedar",
+  "oud": "Smoke and resin",
+  "floral": "Flowers — rose and jasmine",
+  "fresh": "Green, citrus, cut stems",
+  "earthy": "Wet earth after rain",
+  "musky": "Clean skin, barely there",
+  "oriental": "Warm amber and vanilla",
+  "spicy": "Cardamom and pepper"
+ },
+ "LEX": {
+  "family": {
+   "oud": [
+    "oud",
+    "agarwood",
+    "oudh",
+    "smoky",
+    "smoke",
+    "resin",
+    "resinous"
+   ],
+   "woody": [
+    "wood",
+    "woody",
+    "cedar",
+    "sandalwood",
+    "sandal",
+    "chandan",
+    "dry wood"
+   ],
+   "floral": [
+    "floral",
+    "flower",
+    "rose",
+    "gulab",
+    "jasmine",
+    "mogra",
+    "chameli",
+    "saffron",
+    "kesar"
+   ],
+   "fresh": [
+    "fresh",
+    "citrus",
+    "lemon",
+    "bergamot",
+    "green",
+    "aquatic",
+    "clean air",
+    "light"
+   ],
+   "earthy": [
+    "earthy",
+    "earth",
+    "mitti",
+    "soil",
+    "petrichor",
+    "rain",
+    "vetiver",
+    "khus",
+    "root"
+   ],
+   "musky": [
+    "musk",
+    "musky",
+    "skin",
+    "subtle",
+    "soft",
+    "powdery"
+   ],
+   "oriental": [
+    "amber",
+    "vanilla",
+    "warm",
+    "oriental",
+    "sweet",
+    "honey",
+    "resinous warmth"
+   ],
+   "spicy": [
+    "spicy",
+    "spice",
+    "cardamom",
+    "pepper",
+    "cinnamon",
+    "clove",
+    "elaichi"
+   ]
+  },
+  "occasion": {
+   "wedding": [
+    "wedding",
+    "shaadi",
+    "shadi",
+    "marriage",
+    "baraat",
+    "reception",
+    "nikah"
+   ],
+   "office": [
+    "office",
+    "work",
+    "meeting",
+    "workplace",
+    "professional",
+    "corporate"
+   ],
+   "everyday": [
+    "everyday",
+    "daily",
+    "every day",
+    "day to day",
+    "casual",
+    "regular",
+    "routine"
+   ],
+   "date": [
+    "date",
+    "dinner date",
+    "romantic",
+    "anniversary"
+   ],
+   "evening": [
+    "evening",
+    "night",
+    "after dark",
+    "party",
+    "dinner",
+    "going out"
+   ],
+   "festive": [
+    "festival",
+    "festive",
+    "diwali",
+    "eid",
+    "holi",
+    "puja",
+    "celebration",
+    "navratri"
+   ]
+  },
+  "season": {
+   "summer": [
+    "summer",
+    "hot",
+    "heat",
+    "warm weather",
+    "garmi",
+    "humid heat"
+   ],
+   "winter": [
+    "winter",
+    "cold",
+    "chilly",
+    "sardi",
+    "december"
+   ],
+   "monsoon": [
+    "monsoon",
+    "rain",
+    "rainy",
+    "humid",
+    "barish"
+   ],
+   "all-season": [
+    "all year",
+    "year round",
+    "all seasons",
+    "any weather",
+    "every season"
+   ]
+  },
+  "intensity": {
+   "soft": [
+    "subtle",
+    "light",
+    "soft",
+    "close",
+    "discreet",
+    "not loud",
+    "barely",
+    "mild",
+    "gentle"
+   ],
+   "moderate": [
+    "moderate",
+    "balanced",
+    "noticeable",
+    "medium",
+    "present"
+   ],
+   "strong": [
+    "strong",
+    "bold",
+    "loud",
+    "heavy",
+    "powerful",
+    "announce",
+    "long lasting",
+    "intense",
+    "beast"
+   ]
+  },
+  "type": {
+   "attar": [
+    "attar",
+    "itra",
+    "ittar",
+    "oil based",
+    "oil-based",
+    "non alcoholic",
+    "alcohol free",
+    "roll on"
+   ],
+   "edp": [
+    "spray",
+    "sprays",
+    "eau de parfum",
+    "edp",
+    "alcohol based",
+    "alcohol-based"
+   ]
+  },
+  "dislike": {
+   "sweet": [
+    "sweet",
+    "sugary",
+    "gourmand",
+    "vanilla heavy",
+    "too sweet"
+   ],
+   "smoke": [
+    "smoky",
+    "smoke",
+    "oud",
+    "resin",
+    "medicinal"
+   ],
+   "floral": [
+    "floral",
+    "flowery",
+    "rose",
+    "too floral"
+   ],
+   "heavy": [
+    "heavy",
+    "overpowering",
+    "too strong",
+    "strong",
+    "loud",
+    "cloying"
+   ]
+  }
+ },
+ "NEG": [
+  "not",
+  "no",
+  "nothing",
+  "avoid",
+  "without",
+  "dislike",
+  "hate",
+  "don't",
+  "dont",
+  "less",
+  "too",
+  "except",
+  "other than",
+  "apart from"
+ ],
+ "GIFT": [
+  "gift",
+  "present",
+  "for my",
+  "for her",
+  "for him",
+  "for a friend",
+  "for wife",
+  "for husband",
+  "for mother",
+  "for father",
+  "for sister",
+  "for brother",
+  "birthday",
+  "anniversary gift"
+ ],
+ "BEGINNER": [
+  "don't know",
+  "dont know",
+  "no idea",
+  "new to",
+  "never worn",
+  "first time",
+  "beginner",
+  "not sure",
+  "confused",
+  "help me understand",
+  "what is"
+ ],
+ "EXPERT": [
+  "accord",
+  "dry down",
+  "drydown",
+  "sillage",
+  "projection",
+  "concentration",
+  "notes pyramid",
+  "base note",
+  "top note",
+  "aldehyde",
+  "absolute",
+  "macerat"
+ ],
+ "STY_Q": {
+  "who": {
+   "ask": "First — is this for you, or a gift for someone else?",
+   "chips": [
+    [
+     "For me",
+     "for me"
+    ],
+    [
+     "A gift",
+     "it's a gift"
+    ]
+   ]
+  },
+  "family": {
+   "ask": "What kind of thing do you usually enjoy?",
+   "beginner": "Put simply — would you rather smell warm and rich, or fresh and clean?",
+   "chips": [
+    [
+     "Wood and smoke",
+     "I like woody, smoky things"
+    ],
+    [
+     "Rose and flowers",
+     "I like floral, rose"
+    ],
+    [
+     "Fresh and green",
+     "something fresh and green"
+    ],
+    [
+     "Earth after rain",
+     "earthy, like mitti"
+    ],
+    [
+     "Warm amber",
+     "warm amber and vanilla"
+    ],
+    [
+     "Clean skin",
+     "soft clean musk"
+    ]
+   ]
+  },
+  "occasion": {
+   "ask": "And when would you wear it most?",
+   "giftAsk": "When would they wear it most?",
+   "chips": [
+    [
+     "Every day",
+     "everyday wear"
+    ],
+    [
+     "Office",
+     "for the office"
+    ],
+    [
+     "Evenings",
+     "for evenings"
+    ],
+    [
+     "A wedding",
+     "for a wedding"
+    ],
+    [
+     "Festivals",
+     "for festivals"
+    ],
+    [
+     "A date",
+     "for a date"
+    ]
+   ]
+  },
+  "season": {
+   "ask": "What is the weather like where it will be worn?",
+   "chips": [
+    [
+     "Hot",
+     "hot most of the year"
+    ],
+    [
+     "Humid and rainy",
+     "monsoon, humid"
+    ],
+    [
+     "Cold winters",
+     "proper winters"
+    ],
+    [
+     "All four",
+     "all year round"
+    ]
+   ]
+  },
+  "intensity": {
+   "ask": "How noticeable should it be?",
+   "giftAsk": "How noticeable do they like to be?",
+   "beginner": "Should people notice it across a room, or only when they are close?",
+   "chips": [
+    [
+     "Close to me",
+     "subtle, close to the skin"
+    ],
+    [
+     "Noticeable",
+     "noticeable in a room"
+    ],
+    [
+     "Make an entrance",
+     "strong, I want it noticed"
+    ]
+   ]
+  },
+  "budget": {
+   "ask": "Is there a budget I should stay inside?",
+   "chips": [
+    [
+     "Under ₹500",
+     "under 500"
+    ],
+    [
+     "₹500 to ₹1,000",
+     "around 1000"
+    ],
+    [
+     "Over ₹1,000",
+     "above 1000"
+    ],
+    [
+     "No limit",
+     "no budget limit"
+    ]
+   ]
+  },
+  "type": {
+   "ask": "Spray, or a traditional itra applied in drops?",
+   "chips": [
+    [
+     "A spray",
+     "a spray perfume"
+    ],
+    [
+     "An itra",
+     "an itra, oil based"
+    ],
+    [
+     "Either",
+     "either is fine"
+    ]
+   ]
+  }
+ },
+ "STY_ORDER": [
+  "who",
+  "family",
+  "occasion",
+  "season",
+  "intensity",
+  "budget"
+ ],
+ "SITE": {
+  "origin": "https://rooh.example",
+  "name": "ROOH Fragrance House",
+  "robots": "noindex,nofollow"
+ }
+}

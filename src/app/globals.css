@@ -1,0 +1,37 @@
+/* The design system, in the order it was audited.
+
+   These nine files come across from the storefront unchanged. The
+   cascade order is load-bearing: the Stage 10 contrast pass and the
+   Stage 11 restraint audit measured the computed result of exactly
+   this sequence, so do not reorder them.
+
+     01 tokens    the frozen design system (v1.1)
+     02 base      reset, type, buttons, header, footer, drawers
+     03 shop      catalogue, filters, collection pages
+     04 product   gallery, buy box, product anatomy
+     05 checkout  bag, checkout, account
+     06 finder    the fragrance finder
+     07 stylist   the stylist panel
+     08 mobile    the phone, designed on its own terms (stage 9)
+     09 audit     focus, skip link, the stage 10 repairs
+*/
+@import "../styles/01-tokens.css";
+@import "../styles/02-base.css";
+@import "../styles/03-shop.css";
+@import "../styles/04-product.css";
+@import "../styles/05-checkout.css";
+@import "../styles/06-finder.css";
+@import "../styles/07-stylist.css";
+@import "../styles/08-mobile.css";
+@import "../styles/09-audit.css";
+
+/* next/font self-hosts and subsets the two families and hands back a
+   CSS variable for each, complete with a size-adjusted fallback. The
+   frozen tokens keep their names and their fallback stacks; only the
+   first family in each stack is swapped for the local copy, so the
+   audited rules are untouched and there is no third-party font
+   request on any page. */
+:root {
+  --display: var(--font-display), ui-serif, Georgia, "Times New Roman", serif;
+  --ui: var(--font-ui), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}

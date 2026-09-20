@@ -1,0 +1,191 @@
+/* ══════════════════════════════════════════════════════════════
+   STAGE 9 — THE PHONE
+   Not the desktop page made narrow. A phone gives you one column,
+   one thumb and roughly 640 usable points of height, and what
+   follows is built for that rather than folded down into it.
+   Every rule is scoped to the phone; the desktop page is untouched.
+   ══════════════════════════════════════════════════════════════ */
+
+
+/* A drawer parked off the right edge still counts toward the
+   document's scrollable width, which is how a page ends up with two
+   stray pixels of sideways scroll. Clipping (not hiding) the
+   horizontal axis removes it without creating a scroll container,
+   so the sticky header and the fixed bars keep working. */
+html{overflow-x:clip}
+
+/* ── the bar under your thumb ──────────────────────────────── */
+.tabbar{position:fixed;inset:auto 0 0 0;z-index:35;display:none;
+  background:color-mix(in srgb,var(--bg) 94%,transparent);backdrop-filter:blur(16px);
+  border-top:var(--border);padding-bottom:env(safe-area-inset-bottom,0px);
+  transition:transform var(--d-base) var(--ease)}
+.tabbar.is-down{transform:translateY(calc(100% + 2px))}
+.tabbar-in{display:grid;grid-template-columns:repeat(5,1fr)}
+.tab{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:5px;min-height:56px;padding:8px 2px 9px;color:var(--ink-faint);font-size:10px;
+  letter-spacing:.05em;transition:color var(--d-micro) var(--ease)}
+.tab[aria-current="page"]{color:var(--ink)}
+.tab[aria-current="page"]::before{content:"";position:absolute;top:0;left:50%;width:24px;height:2px;
+  margin-left:-12px;background:var(--accent)}
+.tab .dot{position:absolute;top:4px;right:calc(50% - 21px)}
+
+@media(max-width:639px){
+  .tabbar{display:block}
+  /* the footer, the toasts and the buy bar all have to clear it, and
+     --tabh is measured from the bar itself rather than guessed, so a
+     larger text setting cannot leave the footer underneath it */
+  body{padding-bottom:var(--tabh,58px)}
+  .toasts{bottom:calc(var(--tabh,58px) + 14px)}
+  /* on a product page the buy bar IS the primary action, so the tab
+     bar steps aside rather than stacking a second bar beneath it */
+  .sbuy{z-index:36}
+  .sty-btn{display:none!important}
+}
+
+/* ── the phone header: three targets, not seven ────────────── */
+@media(max-width:639px){
+  /* the promise has to fit on one line without being cut in half,
+     so the type steps down rather than the sentence */
+  .announce p{font-size:9.5px;letter-spacing:.06em;padding:8px var(--gutter);
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .hdr-row{gap:2px;min-height:56px}
+  .hdr-side.r .ibtn[data-open="search"],
+  .hdr-side.r #themeBtn,
+  .hdr-side.r a[href="#/account"],
+  .hdr-side.r a[href="#/account/wishlist"]{display:none}
+  .ibtn{min-width:44px;min-height:44px;padding:0;align-items:center;justify-content:center}
+  .burger{min-width:44px;min-height:44px;padding:0;margin-left:-10px;
+    align-items:center;justify-content:center}
+  .brand{font-size:19px;letter-spacing:.24em;min-height:44px;display:flex;align-items:center}
+  .dot{right:0;top:3px}
+}
+
+/* ── the phone drawer ──────────────────────────────────────── */
+@media(max-width:639px){
+  .mnav a{min-height:48px;display:flex;align-items:center}
+  .drawer-body{padding-bottom:calc(var(--s6) + env(safe-area-inset-bottom,0px))}
+}
+.mtheme{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  margin-top:var(--s6);padding-top:var(--s5);border-top:var(--border)}
+.mtheme>span{font-size:var(--t-small);color:var(--ink-muted)}
+.mtheme button{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding-inline:16px;
+  border:1px solid var(--line-strong);border-radius:var(--r-pill);font-size:var(--t-micro);
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink)}
+
+/* ── the phone hero: show the bottle, not the scrollbar ────── */
+@media(max-width:639px){
+  .hero-in{min-height:min(62svh,560px);padding-block:var(--s7) var(--s6);gap:var(--s4)}
+  .hero h1{font-size:clamp(2.75rem,12.5vw,3.5rem);line-height:1.04}
+  .hero-sub{font-size:1rem;line-height:1.65;max-width:32ch}
+  /* one decision above the fold, not two competing full-width slabs */
+  .hero-cta{gap:var(--s4);align-items:flex-start}
+  .hero-cta .btn-on-dark{width:100%;justify-content:center;min-height:52px}
+  .hero-cta .btn-ghost-dark{min-height:44px;padding:0;border:0;background:none;
+    text-decoration:underline;text-underline-offset:6px}
+  .hero-foot ul{padding-block:var(--s4)}
+}
+
+/* the fold-out only exists on the phone, where the description is
+   actually clamped; at desktop width the full paragraph is shown */
+.clampy-t{display:none}
+
+/* ── the phone shop: reach the products ────────────────────── */
+@media(max-width:639px){
+  .phead{padding-block:var(--s5);gap:var(--s3)}
+  .phead .lead{font-size:1rem;line-height:1.6}
+  /* a full range description is a paragraph you scroll past, so it
+     folds to three lines with the rest one tap away */
+  .clampy{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .clampy.is-open{-webkit-line-clamp:unset;display:block}
+  .clampy-t{min-height:44px;display:inline-flex;align-items:center;font-size:var(--t-micro);
+    letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink)}
+  /* refine without scrolling back to the top of the page */
+  .toolbar{position:sticky;top:calc(env(safe-area-inset-top,0px) + 56px);z-index:29;
+    background:color-mix(in srgb,var(--bg) 95%,transparent);backdrop-filter:blur(12px)}
+  .tool-btn,.sortsel{height:46px;font-size:15px}
+  .sortsel{padding:0 34px 0 14px}
+  .pcard-fav{min-width:44px;min-height:44px}
+  .pcard-mobile-add{min-height:46px}
+  .crumbs{padding-block:var(--s4) 0;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+  .crumbs::-webkit-scrollbar{display:none}
+}
+
+/* ── the phone gallery: swipe it ───────────────────────────── */
+.gal-track{display:none}
+@media(max-width:639px){
+  .gal-main,.gal-thumbs{display:none}
+  .gal{position:relative;gap:0}
+  .gal-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;
+    margin-inline:calc(var(--gutter) * -1)}
+  .gal-track::-webkit-scrollbar{display:none}
+  .gal-slide{flex:0 0 100%;scroll-snap-align:center;aspect-ratio:4/5;position:relative;
+    overflow:hidden;background:var(--surface-muted)}
+  .gal-slide>svg{position:absolute;inset:0;width:100%;height:100%}
+  /* the dot you see is 6px; the dot you tap is 22 by 44, and they
+     tile edge to edge so no two hit areas overlap */
+  .gal-dots{display:flex;justify-content:center;padding-block:6px 2px}
+  .gal-dot{width:22px;height:44px;display:grid;place-items:center;background:none}
+  .gal-dot::before{content:"";width:6px;height:6px;border-radius:var(--r-pill);background:var(--stone);
+    transition:background var(--d-micro) var(--ease),width var(--d-micro) var(--ease)}
+  .gal-dot[aria-current="true"]::before{width:18px;background:var(--ink)}
+  .gal-count{position:absolute;right:10px;top:10px;height:24px;padding-inline:10px;
+    display:inline-flex;align-items:center;background:color-mix(in srgb,var(--ivory) 88%,transparent);
+    color:var(--espresso);font-size:10px;letter-spacing:.1em;font-variant-numeric:tabular-nums;
+    pointer-events:none;z-index:2}
+  .gal-cap{padding-top:10px}
+}
+
+/* ── the phone buy area ────────────────────────────────────── */
+@media(max-width:639px){
+  .pdp{gap:var(--s5)}
+  .pinfo{gap:var(--s5)}
+  .pinfo h1{font-size:2.125rem;line-height:1.08}
+  .qty button{min-width:46px;min-height:46px}
+}
+
+/* ── phone forms: no zoom on focus, no thin targets ────────── */
+@media(max-width:639px){
+  /* 16px is the threshold below which iOS Safari zooms the page on
+     focus and leaves the visitor scrolled sideways */
+  .input,select,textarea,input{font-size:16px}
+  .input{height:50px}
+  .sortsel{font-size:15px}
+  .check{min-height:44px;padding-block:0}
+  .check input{width:19px;height:19px}
+  .check input:checked::after{left:6px;top:3px;width:5px;height:10px}
+  .btn{min-height:46px}
+  .btn-sm{min-height:40px}
+  /* padding grows the target without taking the link out of the
+     line it sits in */
+  .btn-tertiary{padding-block:12px}
+  /* these are stacked links, so they stay block-level — inline-flex
+     would run "Perfumes" and "Itra" together on one line */
+  .ftr-cols a{min-height:44px;display:flex;align-items:center;padding-block:0}
+  .ftr-legal a{min-height:44px;display:inline-flex;align-items:center}
+}
+
+
+/* ── phone refinements found by looking at it on a phone ───── */
+@media(max-width:639px){
+  /* the promise strip sat on top of the bottle and became unreadable */
+  .hero-foot{background:linear-gradient(to top,var(--plum) 72%,
+    color-mix(in srgb,var(--plum) 55%,transparent))}
+  .hero-foot ul{grid-template-columns:1fr;gap:var(--s3)}
+  /* on a phone the image is the product page, so the furniture
+     around it gives up its height */
+  .gal-cap{font-size:10px;line-height:1.5;color:var(--ink-faint)}
+  .pdp>.gal{margin-top:var(--s3)}
+}
+
+/* ── the last of the small targets ─────────────────────────── */
+@media(max-width:639px){
+
+  .crumbs a,.crumbs span{padding-block:12px}
+  .sortsel{font-size:16px}
+}
+/* ── motion ────────────────────────────────────────────────── */
+@media(prefers-reduced-motion:reduce){
+  .tabbar{transition:none}
+  .gal-track{scroll-behavior:auto}
+  .gal-dot::before{transition:none}
+}

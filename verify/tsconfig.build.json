@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "rootDir": "../src/lib",
+    "outDir": "./.build",
+    "module": "esnext",
+    "target": "es2022",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "types": [],
+    "noEmit": false,
+    "strict": false
+  },
+  "files": [
+    "../src/lib/engine.ts",
+    "../src/lib/products.ts",
+    "../src/lib/detail.ts"
+  ]
+}

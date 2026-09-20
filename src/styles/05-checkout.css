@@ -1,0 +1,126 @@
+/* ══ STAGE 6 — CART, CHECKOUT, ACCOUNT ══════════════════════ */
+.two{display:grid;gap:var(--s6)}
+@media(min-width:1024px){.two{grid-template-columns:1.55fr 1fr;gap:var(--s8);align-items:start}}
+.two>*{min-width:0}
+.rail-sticky{position:sticky;top:calc(env(safe-area-inset-top,0px) + 100px)}
+
+.line{display:flex;gap:var(--s4);padding-block:var(--s5);border-bottom:var(--border);
+  align-items:flex-start}
+.line .fig{flex:0 0 84px;aspect-ratio:3/4;overflow:hidden;background:var(--surface-muted)}
+@media(min-width:640px){.line .fig{flex:0 0 104px}}
+.line-b{flex:1;min-width:0;display:grid;gap:6px}
+.line-b>.row{flex-wrap:wrap;gap:8px 12px}
+.line-b>.row>*{min-width:0}
+@media(max-width:419px){.line .fig{flex:0 0 68px}.line{gap:12px}}
+.line-n{font-family:var(--display);font-size:1.1875rem;line-height:1.3}
+.qtybox{display:inline-flex;align-items:center;border:1px solid var(--line-strong);
+  border-radius:var(--r-xs);height:38px}
+.qtybox button{width:34px;height:100%;display:grid;place-items:center;color:var(--ink-muted);
+  transition:color var(--d-micro) var(--ease)}
+.qtybox button:hover:not(:disabled){color:var(--ink)}
+.qtybox button:disabled{opacity:.3;cursor:not-allowed}
+.qtybox span{min-width:30px;text-align:center;font-variant-numeric:tabular-nums;font-size:var(--t-small)}
+
+.summ{border:var(--border);padding:var(--s5)}
+@media(min-width:768px){.summ{padding:var(--s6)}}
+.summ h2{font-size:1.375rem;margin-bottom:var(--s5)}
+.summ-row{display:flex;justify-content:space-between;gap:16px;font-size:var(--t-small);
+  padding-block:6px}
+.summ-row.tot{font-size:1.125rem;padding-top:var(--s4);margin-top:var(--s4);
+  border-top:var(--border)}
+.summ-row .v{font-variant-numeric:tabular-nums}
+.save{color:var(--accent-ink)}
+
+.ship-bar{height:2px;background:var(--line-strong);margin-top:10px}
+.ship-bar i{display:block;height:2px;background:var(--accent)}
+
+/* steps */
+.steps{display:flex;gap:6px;margin-bottom:12px}
+.steps i{height:2px;flex:1;background:var(--line-strong);transition:background var(--d-base) var(--ease)}
+.steps i.on{background:var(--plum)}
+.step-hd{display:flex;justify-content:space-between;align-items:baseline;gap:16px;
+  margin-bottom:var(--s6)}
+
+/* forms */
+.frm{display:grid;gap:var(--s4);max-width:560px}
+.frm-2{display:grid;gap:var(--s4)}
+@media(min-width:520px){.frm-2{grid-template-columns:1fr 1fr}}
+.select{width:100%;height:50px;padding:0 34px 0 14px;background:var(--surface);
+  border:1px solid var(--line-strong);border-radius:var(--r-xs);color:var(--ink);
+  font-family:var(--ui);font-size:var(--t-body);appearance:none;cursor:pointer}
+.selwrap{position:relative}
+.selwrap::after{content:"";position:absolute;right:16px;top:50%;width:6px;height:6px;
+  margin-top:-5px;border-right:1px solid var(--ink-muted);border-bottom:1px solid var(--ink-muted);
+  transform:rotate(45deg);pointer-events:none}
+.input.bad,.select.bad{border-color:var(--error-ink)}
+.bad-msg{font-size:var(--t-small);color:var(--error-ink)}
+.opt{color:var(--ink-faint);font-weight:400;letter-spacing:0;text-transform:none}
+
+/* selectable cards (address, shipping, payment) */
+.pick{display:block;border:1px solid var(--line-strong);padding:var(--s4);cursor:pointer;
+  transition:border-color var(--d-micro) var(--ease),background var(--d-micro) var(--ease)}
+.pick:hover{border-color:var(--ink)}
+.pick.on{border-color:var(--plum);background:var(--surface)}
+.pick.off{opacity:.45;cursor:not-allowed}
+.pick-row{display:flex;gap:14px;align-items:flex-start}
+.radio{appearance:none;width:16px;height:16px;flex:0 0 auto;margin-top:3px;border-radius:var(--r-pill);
+  border:1px solid var(--line-strong);position:relative;
+  transition:border-color var(--d-micro) var(--ease)}
+.radio:checked{border-color:var(--plum);border-width:5px}
+
+/* otp */
+.otp{display:flex;gap:8px}
+.otp input{flex:1;min-width:0;height:60px;text-align:center;font-family:var(--display);
+  font-size:1.5rem;font-weight:400;padding-inline:0}
+
+/* account */
+.acct{display:grid;gap:var(--s6)}
+@media(min-width:1024px){.acct{grid-template-columns:210px 1fr;gap:var(--s8);align-items:start}}
+.acct-nav2{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;
+  margin-inline:calc(var(--gutter) * -1);padding-inline:var(--gutter)}
+.acct-nav2::-webkit-scrollbar{display:none}
+.acct-nav2 a,.acct-nav2 button{flex:0 0 auto;white-space:nowrap}
+@media(min-width:1024px){.acct-nav2{position:sticky;top:calc(env(safe-area-inset-top,0px) + 100px);
+  flex-direction:column;overflow:visible;margin-inline:0;padding-inline:0;gap:2px}
+  .acct-nav2 a,.acct-nav2 button{border:0;border-radius:0;height:auto;padding:9px 0;
+    border-bottom:var(--border);text-align:left;justify-content:flex-start;background:none;
+    font-size:var(--t-small);color:var(--ink-muted)}
+  .acct-nav2 a:hover,.acct-nav2 button:hover{color:var(--ink);background:none}
+  .acct-nav2 a.is-on{color:var(--accent-ink);background:none;border-bottom-color:var(--accent)}}
+
+.stat{border:var(--border);padding:var(--s5)}
+.stat .v{font-family:var(--display);font-size:2.25rem;line-height:1}
+.stat .k{font-size:var(--t-small);color:var(--ink-muted);margin-top:6px}
+.ocard{border:var(--border);padding:var(--s5)}
+.ocard-hd{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
+  padding-bottom:var(--s4);margin-bottom:var(--s4);border-bottom:var(--border)}
+.thumbs{display:flex;gap:8px;flex-wrap:wrap}
+.thumbs span{width:46px;aspect-ratio:3/4;overflow:hidden;background:var(--surface-muted)}
+
+/* timeline */
+.tl{display:grid}
+.tl-i{display:grid;grid-template-columns:auto 1fr;gap:16px}
+.tl-m{display:flex;flex-direction:column;align-items:center}
+.tl-dot{width:9px;height:9px;border-radius:var(--r-pill);background:var(--line-strong);margin-top:7px}
+.tl-i.done .tl-dot{background:var(--accent)}
+.tl-line{width:1px;flex:1;background:var(--line);min-height:30px}
+.tl-b{padding-bottom:var(--s5)}
+.tl-b p.t{font-size:var(--t-small)}
+.tl-i:not(.done) .tl-b p.t{color:var(--ink-muted)}
+
+/* empty */
+/* the implicit column was sizing itself to the longest sentence,
+   which on a 320px phone is wider than the panel it sits in */
+.emp{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--s4);justify-items:center;
+  text-align:center;padding:var(--s8) var(--s5);border:var(--border)}
+/* a ch-based measure is wider than a 320px phone column, and a
+   centred grid item takes its max-width literally */
+.emp p{max-width:min(44ch,100%)}
+.danger{border-color:var(--error-ink);color:var(--error-ink)}
+.danger:hover:not(:disabled){background:var(--error-ink);color:#fff}
+
+/* policy / help */
+.doc{max-width:70ch}
+.doc h2{font-size:var(--t-h3);margin-top:var(--s7);margin-bottom:var(--s4)}
+.doc p{line-height:1.85;margin-bottom:var(--s4);color:var(--ink-muted)}
+.doc p strong{color:var(--ink)}

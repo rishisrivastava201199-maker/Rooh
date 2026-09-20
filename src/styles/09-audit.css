@@ -1,0 +1,34 @@
+/* ══════════════════════════════════════════════════════════════
+   STAGE 10 — PERFORMANCE, ACCESSIBILITY, SEO
+   ══════════════════════════════════════════════════════════════ */
+
+/* ── skip link ──────────────────────────────────────────────
+   With a nav of this size, a keyboard or screen-reader visitor
+   otherwise tabs through every link on every page before reaching
+   the content. WCAG 2.4.1. */
+.skip{position:absolute;left:var(--gutter);top:-100px;z-index:100;
+  display:inline-flex;align-items:center;min-height:44px;padding-inline:20px;
+  background:var(--plum);color:#F7F3EC;font-size:var(--t-micro);letter-spacing:.14em;
+  text-transform:uppercase;transition:top var(--d-micro) var(--ease)}
+.skip:focus{top:calc(env(safe-area-inset-top,0px) + 10px)}
+
+/* ── focus ──────────────────────────────────────────────────
+   Text fields signalled focus with a border-colour change alone,
+   which is a 1px shift in hue and nothing a low-vision visitor can
+   rely on. Every control now carries the same ring. */
+.input:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,
+.tab:focus-visible,.sty-chip:focus-visible,.gal-dot:focus-visible,.gal-track:focus-visible{
+  outline:2px solid var(--accent-ink);outline-offset:2px}
+.input:focus,.sty-form textarea:focus{outline:2px solid var(--accent-ink);outline-offset:2px;
+  border-color:var(--ink)}
+.check input:focus-visible{outline:2px solid var(--accent-ink);outline-offset:3px}
+/* the ring has to be visible on the dark ground too */
+.ftr .skip:focus-visible,.ftr a:focus-visible,.hero a:focus-visible,
+.news-form input:focus-visible{outline-color:var(--accent)}
+
+/* content-visibility was tried here and measured: applied from the
+   stylesheet it moved FCP 108ms → 112ms, and applied from script
+   after first paint it moved it to 132ms. Neither earns its keep on
+   a page this size, and contain-intrinsic-size made the scrollbar
+   resize as you scrolled. It was removed rather than shipped as a
+   plausible-sounding optimisation that measurement did not support. */

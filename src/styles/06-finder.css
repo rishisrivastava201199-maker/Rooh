@@ -1,0 +1,56 @@
+/* ══ STAGE 7 — FRAGRANCE FINDER ═════════════════════════════ */
+.fdr{max-width:860px;margin-inline:auto}
+.fdr-prog{display:flex;gap:5px;margin-bottom:var(--s6)}
+.fdr-prog i{height:2px;flex:1;background:var(--line-strong);transition:background var(--d-base) var(--ease)}
+.fdr-prog i.on{background:var(--plum)}
+.fdr-prog i.now{background:var(--accent)}
+.fdr-q{font-size:clamp(1.75rem,4vw,2.75rem);margin-block:var(--s4) var(--s3)}
+.fdr-help{font-size:var(--t-small);color:var(--ink-muted);line-height:1.75;max-width:56ch;
+  padding-left:var(--s4);border-left:1px solid var(--accent)}
+.opts{display:grid;gap:var(--s3);margin-top:var(--s6)}
+@media(min-width:640px){.opts{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.opts.three{grid-template-columns:repeat(3,1fr)}}
+.opt-btn{display:grid;gap:4px;text-align:left;padding:var(--s4) var(--s5);
+  border:1px solid var(--line-strong);border-radius:var(--r-xs);background:var(--surface);
+  transition:border-color var(--d-micro) var(--ease),background var(--d-micro) var(--ease),
+    transform var(--d-micro) var(--ease)}
+.opt-btn:hover{border-color:var(--ink)}
+.opt-btn.on{border-color:var(--plum);background:var(--plum);color:#F7F3EC}
+.opt-btn .t{font-family:var(--display);font-size:1.25rem;line-height:1.25}
+.opt-btn .s{font-size:var(--t-micro);color:var(--ink-faint);letter-spacing:.06em}
+.opt-btn.on .s{color:rgba(247,243,236,.7)}
+.fdr-foot{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;
+  margin-top:var(--s6);padding-top:var(--s5);border-top:var(--border)}
+
+/* results */
+.res-lead{display:grid;gap:var(--s5)}
+@media(min-width:900px){.res-lead{grid-template-columns:5fr 7fr;gap:var(--s7);align-items:start}}
+.res-fig{position:relative;aspect-ratio:3/4;overflow:hidden;background:var(--surface-muted)}
+.res-fig>svg{position:absolute;inset:0;width:100%;height:100%}
+.res-rank{position:absolute;left:14px;top:14px;z-index:2}
+.res-why{display:grid;gap:8px;padding-top:var(--s4);border-top:var(--border)}
+.res-why li{display:grid;grid-template-columns:14px 1fr;gap:10px;font-size:var(--t-small);
+  color:var(--ink-muted);line-height:1.65}
+.res-why li::before{content:"";width:6px;height:1px;background:var(--accent);margin-top:12px}
+.res-alt{display:grid;gap:var(--s5)}
+@media(min-width:768px){.res-alt{grid-template-columns:repeat(2,1fr);gap:var(--s6) var(--s5)}}
+.match{display:inline-flex;align-items:baseline;gap:8px}
+.match .n{font-family:var(--display);font-size:1.75rem;line-height:1;color:var(--accent-ink)}
+.match .l{font-size:var(--t-eyebrow);letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint)}
+
+.recap{display:flex;flex-wrap:wrap;gap:8px}
+.recap button{display:inline-flex;align-items:center;gap:7px;height:32px;padding-inline:13px;
+  border:1px solid var(--line-strong);border-radius:var(--r-pill);font-size:var(--t-micro);
+  color:var(--ink-muted);transition:border-color var(--d-micro) var(--ease),color var(--d-micro) var(--ease)}
+.recap button:hover{border-color:var(--ink);color:var(--ink)}
+
+.fb{display:flex;gap:10px;flex-wrap:wrap}
+.cmp-wrap{overflow-x:auto}
+.cmp{width:100%;border-collapse:collapse;font-size:var(--t-small);min-width:560px}
+.cmp th{text-align:left;padding:14px 16px 14px 0;border-bottom:1px solid var(--line-strong);
+  vertical-align:bottom}
+.cmp th .n{font-family:var(--display);font-size:1.25rem;display:block;line-height:1.25}
+.cmp td{padding:12px 16px 12px 0;border-bottom:var(--border);color:var(--ink-muted);vertical-align:top}
+.cmp td:first-child,.cmp th:first-child{color:var(--ink-faint);font-size:var(--t-eyebrow);
+  letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;width:130px}
+.cmp tr td:first-child{color:var(--ink-faint)}
